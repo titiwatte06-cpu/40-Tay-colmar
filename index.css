@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(214, 214, 214);
+    font-family: Arial, sans-serif;
+}
+
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 0 24px 0 24px;
+    background-color: rgb(255, 255, 255);
+    height: 64px;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.logo-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-group img {
+    height: 32px;                  
+}
+
+.brand-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grey {
+    color:grey
+}
+
+.menu-bar {
+    margin-right: 24px;
+}
+
+.menu-bar > ul {
+    display:flex;
+    list-style: none;
+    margin-left: auto;
+    margin-right: 24px;
+    gap:16px;
+}
+
+
+
+
+
+    
